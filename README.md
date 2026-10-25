@@ -1,6 +1,11 @@
+
 # Linux Admin Scripts
 
 A collection of Bash scripts for Linux system administration, monitoring, and troubleshooting.
+
+## Project Page
+
+GitHub repository: https://github.com/bahare-ehsani/linux-admin-scripts
 
 ## Project Structure
 
@@ -22,22 +27,24 @@ Displays basic Linux server statistics, including:
 
 - Operating system and hostname
 - System uptime and load average
-- CPU usage
-- Memory usage
-- Disk usage
+- Total CPU usage
+- Memory usage: used, free, and available memory, including percentages
+- Disk usage, including used and available space and usage percentage
 - Top 5 processes by CPU usage
 - Top 5 processes by memory usage
 - Logged-in users
 
-**Requirements:** Bash and standard Linux utilities, including `awk`, `ps`, `df`, `free`, `uptime`, `hostname`, and `who`.
+**Requirements:** Bash and standard Linux utilities, including `awk`, `ps`, `df`, `free`, `uptime`, `hostname`, `who`, and `sleep`.
 
 **Usage:**
+
+Run the following command from the repository directory:
 
 ```bash
 bash monitoring/server-stats.sh
 ```
 
-The script collects system information and prints a report to the terminal. CPU usage is calculated over a one-second sampling interval.
+The script prints a system statistics report to the terminal. CPU usage is calculated over a one-second sampling interval.
 
 ## Compatibility
 
