@@ -5,7 +5,7 @@ A collection of Bash scripts for Linux system administration, monitoring, and tr
 
 ## Project Page
 
-GitHub repository: https://github.com/bahare-ehsani/linux-admin-scripts
+GitHub repository: https://roadmap.sh/projects/server-stats
 
 ## Project Structure
 
