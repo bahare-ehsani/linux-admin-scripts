@@ -1,61 +1,50 @@
-
 # Linux Admin Scripts
 
-A collection of Bash scripts for Linux system administration, monitoring, and troubleshooting.
+A collection of practical Linux administration and DevOps-related projects developed using Bash scripting and standard Linux utilities.
 
-## Project Page
+## Projects
 
-GitHub repository: https://roadmap.sh/projects/server-stats
+### 1. Server Stats
 
-## Project Structure
+A Bash script that displays essential Linux server performance and system information, including CPU, memory, disk usage, processes, and logged-in users.
+
+**Project Page:** https://roadmap.sh/projects/server-stats
+
+**Directory:** `monitoring/`
+
+### 2. Log Archive Tool
+
+A Bash utility that creates compressed archives of log directories, verifies archive integrity, and maintains execution logs.
+
+**Project Page:** https://roadmap.sh/projects/log-archive
+
+**Directory:** `log-archive/`
+
+## Environment
+
+- Linux
+- Bash
+- AlmaLinux 10.2 (development and testing environment)
+- Git & GitHub
+
+## Repository Structure
 
 ```text
 linux-admin-scripts/
 ├── monitoring/
+│   ├── README.md
 │   └── server-stats.sh
-├── README.md
-└── LICENSE
+│
+├── log-archive/
+│   ├── README.md
+│   ├── log-archive.sh
+│   └── .gitignore
+│
+├── LICENSE
+└── README.md
 ```
-
-## Available Scripts
-
-### Monitoring
-
-#### `monitoring/server-stats.sh`
-
-Displays basic Linux server statistics, including:
-
-- Operating system and hostname
-- System uptime and load average
-- Total CPU usage
-- Memory usage: used, free, and available memory, including percentages
-- Disk usage, including used and available space and usage percentage
-- Top 5 processes by CPU usage
-- Top 5 processes by memory usage
-- Logged-in users
-
-**Requirements:** Bash and standard Linux utilities, including `awk`, `ps`, `df`, `free`, `uptime`, `hostname`, `who`, and `sleep`.
-
-**Usage:**
-
-Run the following command from the repository directory:
-
-```bash
-bash monitoring/server-stats.sh
-```
-
-The script prints a system statistics report to the terminal. CPU usage is calculated over a one-second sampling interval.
-
-## Compatibility
-
-Developed and tested in a lab environment running AlmaLinux 10.2.
-
-Other Linux distributions may work, but have not yet been verified.
-
-## Project Status
-
-This project is under active development. Additional scripts for system administration, backup, networking, and troubleshooting may be added over time.
 
 ## License
 
-See the `LICENSE` file for licensing information.
+This repository is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for details.
