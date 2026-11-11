@@ -1,5 +1,0 @@
-# Runtime-generated archive files
-/archives/*.tar.gz
-/archives/archive.log
-/archives/.log-archive.*
-/archives/cron.log

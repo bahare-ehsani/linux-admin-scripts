@@ -1,2 +1,0 @@
-Nov 03 10:02:00 ansible-control sshd: Accepted publickey for devops.
-Nov 03 10:03:00 ansible-control sudo: devops : COMMAND=/usr/bin/id
